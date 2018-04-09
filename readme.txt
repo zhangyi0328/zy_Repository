@@ -3,3 +3,4 @@ git is free software
 chang one 
 change two
 change three
+end with master

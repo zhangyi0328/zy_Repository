@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js 对象 </title>
+</head>
+<body>
+    <div>
+        <input id="time1" type="button" value="点击显示时间" onclick="time1()"/>
+        <input id="math1" type="button" value="点击显示math" onclick="time2()"/>
+        <input id="string1" type="button" value="点击显示string" onclick="time3()"/>
+    </div>
+
+    <script>
+        function time1() {
+            // JS Date 对象  方法和属性详见w3c
+            var date = new Date() ;
+            alert(date.toLocaleString()) ;
+        }
+
+        function time2 () {
+            // JS Math 对象  方法和属性详见w3c
+            for (var i = 0; i < 10; i++) {
+                document.write( Math.floor(Math.random() * 9)   + "<br/>");
+            }
+        }
+
+        function time3() {
+            var str = "aaaaaa aaaa" ;
+            alert(str.length) ;
+        }
+    </script>
+
+
+</body>
+</html>
